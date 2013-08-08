@@ -5,6 +5,7 @@
     "iso_checksum": "62232b8adc281c04f9985e4a1541481a468b3b2ca1702a0dd7f62fcf56ef101b",
     "iso_url": "http://cdimage.debian.org/debian-cd/7.1.0/amd64/iso-cd/debian-7.1.0-amd64-netinst.iso",
     "ssh_username": "vagrant",
+    "ssh_password": "vagrant",
     "http_directory": "./",
     "boot_command": [
       "<esc>",
@@ -24,5 +25,8 @@
       "keyboard-configuration/xkb-keymap=us ",
       "<enter>"
     ]
+  }],
+  "post-processors": [{
+    "type": "vagrant"
   }]
 }
