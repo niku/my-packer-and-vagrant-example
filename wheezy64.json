@@ -24,5 +24,8 @@
       "keyboard-configuration/xkb-keymap=us ",
       "<enter>"
     ]
+  }],
+  "post-processors": [{
+    "type": "vagrant"
   }]
 }
