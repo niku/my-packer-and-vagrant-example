@@ -26,6 +26,12 @@
       "<enter>"
     ]
   }],
+  "provisioners": [{
+    "type": "shell",
+    "scripts": [
+      "vagrant.sh"
+    ]
+  }],
   "post-processors": [{
     "type": "vagrant"
   }]
