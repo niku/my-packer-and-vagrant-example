@@ -30,6 +30,7 @@
   "provisioners": [{
     "type": "shell",
     "scripts": [
+      "base.sh",
       "vagrant.sh"
     ]
   }],
