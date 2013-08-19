@@ -24,7 +24,8 @@
       "console-keymaps-at/keymap=us ",
       "keyboard-configuration/xkb-keymap=us ",
       "<enter>"
-    ]
+    ],
+    "shutdown_command": "sudo shutdown -h now"
   }],
   "provisioners": [{
     "type": "shell",
