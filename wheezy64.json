@@ -31,6 +31,7 @@
     "type": "shell",
     "scripts": [
       "base.sh",
+      "chef.sh",
       "vagrant.sh"
     ]
   }],
