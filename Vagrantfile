@@ -90,6 +90,8 @@ Vagrant.configure("2") do |config|
   #   chef.json = { :mysql_password => "foo" }
   # end
   config.vm.provision :chef_solo do |chef|
+    chef.cookbooks_path = 'chef-recipes/cookbooks'
+    chef.add_recipe 'build-essential'
   end
 
   # Enable provisioning with chef server, specifying the chef server URL,
