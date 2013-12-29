@@ -25,7 +25,8 @@
       "keyboard-configuration/xkb-keymap=us ",
       "<enter>"
     ],
-    "shutdown_command": "sudo shutdown -h now"
+    "shutdown_command": "sudo shutdown -h now",
+    "guest_os_type": "Debian_64"
   }],
   "provisioners": [{
     "type": "shell",
